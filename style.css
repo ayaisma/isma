@@ -1,0 +1,59 @@
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+  font-size: 100%;
+  }
+
+
+  @media only screen
+  and (min-width : 321px) {
+  font-size: 110%;
+  }
+
+
+  @media only screen
+  and (max-width : 320px) {
+  font-size: 120%;
+  }
+
+
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+  font-size: 130%;
+  }
+
+
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
+  font-size: 140%;
+  }
+
+
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+  font-size: 150%;
+  }
+
+
+  @media only screen
+  and (min-width : 1224px) {
+  font-size: 160%;
+  }
+
+
+  @media only screen
+  and (min-width : 1824px) {
+  font-size: 170%;
+  }
+
+
+  @media
+  only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+  font-size: 180%;
+  }
